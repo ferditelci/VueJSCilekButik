@@ -17,7 +17,7 @@
     components:{
       Header,
       NavigationBar
-    }
+    },
     
   }
 </script>
