@@ -31,20 +31,28 @@ export default {
         
     },
     computed: {
+        
       Urunler () {
-        return this.$store.state.store.Urunler
+        return this.$store.state.Urunler
       },
 
       StoktaVarMı () {
         return this.$store.getters.StoktaVarMı
       },
 
-      methods: {
-            SepeteEkle (Urun) {
-                this.$store.dispatch('SepeteEkle', Urun)
-            }
-        },
+      
     },
+
+    methods: {
+        SepeteEkle (Urun) {
+            this.$store.dispatch('SepeteEkle', Urun)
+        }
+    },
+
+    created() {
+        this.$store.dispatch('Urunlerfetch')
+    }
+    
 }
 </script>
 

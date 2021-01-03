@@ -3,24 +3,52 @@
         <h3 class="UyeGirisiBaslık">
             Üye Girişi
         </h3>
+        <form @submit.prevent="onayla">
+            <p class="UyeGirisiEposta"> E-Posta Adresiniz</p>
 
-        <p class="UyeGirisiEposta"> E-Posta Adresiniz</p>
+            <input type="text" v-model="eposta" class="UyeGirisiInput"/>
 
-        <input v-model="eposta" class="UyeGirisiInput"/>
+            <p class="UyeGirisiSifre"> Şifre</p>
 
-        <p class="UyeGirisiSifre"> Şifre</p>
+            <input type="password" v-model="sifre" class="UyeGirisiInput"/>
+            <div class="SagText">
+                <a href="https://www.cilekbutik.net/uye-giris?sayfa=sifre" class="UyeGirisiLink">Şifremi Hatırlat</a>
+            </div>
 
-        <input v-model="sifre" class="UyeGirisiInput"/>
-        <div class="SagText">
-            <a href="https://www.cilekbutik.net/uye-giris?sayfa=sifre" class="UyeGirisiLink">Şifremi Hatırlat</a>
-        </div>
-        
-        <button class="GirisYapButon"> Giriş Yap </button>
+            <button type="submit" class="GirisYapButon"> Giriş Yap </button>
+        </form>
     </div>
 </template>
 
 <script>
+
+import firebase from 'firebase'
+require('firebase/auth')
+
 export default {
+    data(){
+        return{
+            user:'',
+            eposta: '',
+            sifre: '',
+            errors: ''
+        }
+    },
+    mounted(){
+      firebase.auth().onAuthStateChanged(user => {
+        this.user = user;
+      })
+    },
+    methods:{
+        onayla(){
+            firebase.auth().signInWithEmailAndPassword(this.eposta, this.sifre).then(user => {
+                this.$router.push('/UyeGirisi')
+                console.clear()
+                console.log(this.user)
+                console.log(this.eposta + ' giris yapildi') 
+            })  
+        }
+    }
     
 }
 </script>

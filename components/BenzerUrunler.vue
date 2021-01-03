@@ -31,55 +31,16 @@ export default {
         Slide,
         HooperNavigation
     },
-    data(){
-        return{
-            Urunler:[
-                {
-                    id:0,
-                    url:'https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg',
-                    name:'Lakers Sweat',
-                    fiyat:55.00
+    computed: {
+        
+      Urunler () {
+        return this.$store.state.Urunler
+      },
+    },
 
-                },
-                {
-                    id:1,
-                    url:'https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg',
-                    name:'asd',
-                    fiyat:23.00
-
-                },
-                {
-                    id:2,
-                    url:'https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg',
-                    name:'Lakers Sweat',
-                    fiyat:55.00
-
-                },
-                {
-                    id:3,
-                    url:'https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg',
-                    name:'Lakers Sweat',
-                    fiyat:55.00
-
-                },
-                {
-                    id:4,
-                    url:'https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg',
-                    name:'Lakers Sweat',
-                    fiyat:55.00
-
-                },
-                {
-                    id:5,
-                    url:'https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg',
-                    name:'Lakers Sweat',
-                    fiyat:55.00
-
-                }
-            ]
-            };
-
-    }    
+    created() {
+        this.$store.dispatch('Urunlerfetch')
+    }
 }
 </script>
 

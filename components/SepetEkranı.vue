@@ -84,7 +84,7 @@ export default {
     },  
   methods: {
       UrunSil: function (Urunid) {
-          this.$store.state.store.Sepet.splice(Urunid,1);
+          this.$store.state.Sepet.splice(Urunid,1);
         },
 
         AdetArttır: function(Urun){
@@ -101,13 +101,13 @@ export default {
     computed:{
         
         Urunler () {
-            return this.$store.state.store.Sepet
+            return this.$store.state.Sepet
         },
         GenelToplamHesaplama: function(){
-            return this.$store.state.store.Sepet.map(urun => urun.tutar).reduce((total, amount) => total + amount);
+            return this.$store.state.Sepet.map(urun => urun.tutar).reduce((total, amount) => total + amount);
         },
         GenelToplamHesaplamaKDV: function(){
-            return this.$store.state.store.Sepet.map(urun => urun.tutar).reduce((total, amount) => total + amount);
+            return this.$store.state.Sepet.map(urun => urun.tutar).reduce((total, amount) => total + amount);
         }
     }
     
@@ -141,7 +141,7 @@ export default {
     .SepetEkranıBirim,
     .SepetEkranı,
     .AlışverişeDevamEtDiv{
-        width: 900px;;
+        width: 1000px;;
         border-width:0.1px;
         border-style: solid;
         border-color:#E5E7E9;
@@ -156,7 +156,7 @@ export default {
         border-bottom: none;
         float:left;
         display:inline;        
-        width:900px;
+        width:1000px;
     }
 
     .SepetUrunler{
@@ -210,7 +210,7 @@ export default {
     }
 
     .SepetEkranıFiyat{
-        padding-left:550px;
+        padding-left:650px;
     }
 
     .SepetEkranıAdet{
@@ -285,7 +285,7 @@ export default {
     .UrunAdetFiyat{
         font-weight: normal;
         display:inline-block;
-        margin-left:585px;
+        margin-left:685px;
         letter-spacing: -1px;
         font-family: 'Oswald', sans-serif;
         transform: scaleY(1.2)
@@ -308,7 +308,7 @@ export default {
     .Tutar{
         float:right;
         margin-right:10px;
-        margin-top:10px;
+        margin-top:-23px;
         transform: scaleY(1.2)
     }
      

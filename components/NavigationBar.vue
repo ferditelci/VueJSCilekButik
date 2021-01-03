@@ -39,10 +39,13 @@
 
         data(){
             return{
-                NavBarElements:[{name1:'YENİ ÜRÜNLER',name2:'ÜST GIYIM',name3:'ALT GIYIM',name4:'DIŞ GIYIM',name5:'ELBISELER',name6:'AKSESUAR',name7:'PIJAMA TAKIMI',name8:'İKILI TAKIM',name9:'İNDIRIMLI URUNLAR'}],
+                NavBarElements:[{name1:'YENİ ÜRÜNLER',name2:'ÜST GIYIM',name3:'ALT GIYIM',name4:'DIŞ GIYIM',name5:'ELBISELER',name6:'AKSESUAR',name7:'PIJAMA TAKIMI',name8:'İKILI TAKIM',name9:'İNDIRIMLI URUNLER'}],
                 UstGiyimler:[{name:'Sweatshirt'},{name:'T-shirt'},{name:'Kazak'},{name:'Gömlek/Bluz'},{name:'Crop'}],
                 AltGiyimler:[{name:'Jean Pantolon'},{name:'Mevsimlik Pantolon'},{name:'Etek'},{name:'Şort'},{name:'Tayt'}],
                 DışGiyimler:[{name:'Ceket'},{name:'Mont'},{name:'Trençkot'},{name:'Yağmurluk'}],
+                user:'',
+                eposta: '',
+                sifre: '',
             };
         },
         props:{

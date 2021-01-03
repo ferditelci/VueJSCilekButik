@@ -33,9 +33,9 @@
                     <div class="yan-bolum-icerik">
                         <div class="tepe-giris-uyeol">
                             <div class="uyelik-linkler">
-                                <NuxtLink to="/UyeGirisi" class="tepe-link-text">Giriş Yap</NuxtLink>
+                                <NuxtLink to="/UyeGirisi" @click="signin" class="tepe-link-text">{{GirisYapText}}</NuxtLink>
                                 <span> / </span>
-                                <a href="#" class="tepe-link-text">Üye Ol</a>
+                                <a href="#" @click="signout" class="tepe-link-text">{{UyeOlText}}</a>
                             </div>
                             &#32;
                             <i class="fa fa-user kullanici-icon"></i>
@@ -58,9 +58,48 @@
     </header>
 </template>
 <script>
-export default {
-    
-}
+    import firebase from 'firebase'
+    require('firebase/auth')
+
+    export default {
+        data(){
+            return{
+                user: '',
+                eposta: '',
+                sifre: '',
+                GirisYapText: '',
+                UyeOlText: 'Üye Ol',
+                GirisYapText: 'Giriş Yap',
+            }
+        },
+        mounted(){
+            firebase.auth().onAuthStateChanged(user => {
+                this.user = user;
+                if(this.user!=null){
+                    this.UyeOlText = 'Çıkış Yap'
+                    this.GirisYapText = 'Hesabım'    
+                }
+            })
+            
+            
+        },
+        
+        methods:{
+            signout(){
+                    firebase.auth().signOut().then(result => {
+                    console.log('Cikis yapildi.')
+                    this.user = ''
+                    this.$router.push('/')
+                    this.UyeOlText = 'Üye Ol'
+                    this.GirisYapText = 'Giriş Yap'
+                    })
+                    console.clear()  
+                    console.log(this.user)
+            },
+            signin(){
+            }
+        }
+    }
 </script>
 
 <style>
