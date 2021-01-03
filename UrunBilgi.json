@@ -1,0 +1,261 @@
+{
+  "Sepet" : [ {
+    "adet" : 10,
+    "beden" : "M",
+    "fiyat" : 55.0,
+    "id" : 0,
+    "kategori" : "Ceket",
+    "name" : "Lakers Sweat",
+    "renk" : "TURUNCU",
+    "tutar" : 55.0,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg"
+  } ],
+  "Urunler" : [ {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 55.0,
+    "id" : 0,
+    "kategori" : "Ceket",
+    "name" : "SIRT DETAY SWEAT",
+    "renk" : "SİYAH",
+    "tutar" : 55,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5ff0c9377484b-1710.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5ff0c9377484b-1710.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 70,
+    "id" : 1,
+    "kategori" : "Ceket",
+    "name" : "LOGO DETAY İÇİ POLAR SWEAT",
+    "renk" : "TURUNCU",
+    "tutar" : 70,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5ff0c8f8109ed-1708.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5ff0c8f8109ed-1708.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 70,
+    "id" : 2,
+    "kategori" : "Ceket",
+    "name" : "YENİ SEZON HIRKA",
+    "renk" : "TURUNCU",
+    "tutar" : 70,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fef4e2f9e6f4-1706.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fef4e2f9e6f4-1706.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 55.0,
+    "id" : 3,
+    "kategori" : "Ceket",
+    "name" : "Lakers Sweat",
+    "renk" : "TURUNCU",
+    "tutar" : 55.0,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/2/100/100/images/urunler/5fa6a282db005-1368.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 45,
+    "id" : 4,
+    "kategori" : "Ceket",
+    "name" : "YENİ SEZON KAZAK",
+    "renk" : "TURUNCU",
+    "tutar" : 45,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fef4cf9832ae-1703.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fef4cf9832ae-1703.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 50,
+    "id" : 5,
+    "kategori" : "Ceket",
+    "name" : "KAKTÜS SWEAT",
+    "renk" : "SİYAH",
+    "tutar" : 50,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fef4cc8d047f-1702.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fef4cc8d047f-1702.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 45,
+    "id" : 6,
+    "kategori" : "Ceket",
+    "name" : "NASA SWEAT",
+    "renk" : "GRİ",
+    "tutar" : 45,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fef4c8b68aff-1701.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fef4c8b68aff-1701.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 75,
+    "id" : 7,
+    "kategori" : "Ceket",
+    "name" : "KUŞAKLI MOM JEAN",
+    "renk" : "SİYAH",
+    "tutar" : 75,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fd4a0cc7e1c0-1607.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fd4a0cc7e1c0-1607.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 75,
+    "id" : 8,
+    "kategori" : "Ceket",
+    "name" : "LAZER KESİM YIRTIK MOM JEAN",
+    "renk" : "TURUNCU",
+    "tutar" : 75,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5f85c0378e7fc-1179.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5f85c0378e7fc-1179.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 90,
+    "id" : 9,
+    "kategori" : "Ceket",
+    "name" : "Şişme Mont",
+    "renk" : "BEJ",
+    "tutar" : 90,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5feac7748bfff-1688.jpeg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5feac7748bfff-1688.jpeg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 85,
+    "id" : 10,
+    "kategori" : "Ceket",
+    "name" : "İÇİ KÜRK MONT",
+    "renk" : "TURUNCU",
+    "tutar" : 85,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fe34c8c4f361-1663.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fe34c8c4f361-1663.jpg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 55.0,
+    "id" : 11,
+    "kategori" : "Ceket",
+    "name" : "Üçlü Takım",
+    "renk" : "TURUNCU",
+    "tutar" : 55.0,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5feac3352f919-1683.jpeg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5feac3352f919-1683.jpeg"
+  }, {
+    "adet" : 10,
+    "barkod" : "6242005630101",
+    "beden" : "M",
+    "bedenler" : [ {
+      "ad" : "S"
+    }, {
+      "ad" : "M"
+    }, {
+      "ad" : "L"
+    } ],
+    "fiyat" : 35,
+    "id" : 12,
+    "kategori" : "Ceket",
+    "name" : "POLAR EŞOFMAN",
+    "renk" : "KIRMIZI",
+    "tutar" : 35,
+    "url" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fc7bdae2a6d8-1533.jpg",
+    "url2" : "https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fc7bdae2a6d8-1533.jpg"
+  } ]
+}
